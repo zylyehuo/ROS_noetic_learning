@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Catkin: build",
+			"command": "bash",
+			"args": [
+				"-lc",
+				"cd \"${workspaceFolder}\" && if [ -f devel/setup.bash ]; then source devel/setup.bash; fi && catkin_make"
+			],
+			"options": {
+			"cwd": "${workspaceFolder}"
+			},
+			"presentation": {
+				"reveal": "always",
+				"panel": "shared"
+			},
+			"group": {"kind":"build", "isDefault": true},
+			"problemMatcher": ["$gcc"],
+			"detail": "Catkin_make template build task"
+		}
+	]
+}
