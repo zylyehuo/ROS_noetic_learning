@@ -340,76 +340,6 @@ costmap_2d_gencfg/fast:
 .PHONY : costmap_2d_gencfg/fast
 
 # Convenience name for target.
-wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
-.PHONY : wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_cpp: wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/rule
-.PHONY : map_msgs_generate_messages_cpp
-
-# fast build rule for target.
-map_msgs_generate_messages_cpp/fast:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build.make wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_cpp.dir/build
-.PHONY : map_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
-.PHONY : wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_eus: wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/rule
-.PHONY : map_msgs_generate_messages_eus
-
-# fast build rule for target.
-map_msgs_generate_messages_eus/fast:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build.make wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_eus.dir/build
-.PHONY : map_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
-.PHONY : wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_lisp: wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/rule
-.PHONY : map_msgs_generate_messages_lisp
-
-# fast build rule for target.
-map_msgs_generate_messages_lisp/fast:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build.make wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_lisp.dir/build
-.PHONY : map_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
-.PHONY : wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_nodejs: wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/rule
-.PHONY : map_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-map_msgs_generate_messages_nodejs/fast:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build.make wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_nodejs.dir/build
-.PHONY : map_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule
-.PHONY : wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-map_msgs_generate_messages_py: wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/rule
-.PHONY : map_msgs_generate_messages_py
-
-# fast build rule for target.
-map_msgs_generate_messages_py/fast:
-	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build.make wpb_home/wpbh_local_planner/CMakeFiles/map_msgs_generate_messages_py.dir/build
-.PHONY : map_msgs_generate_messages_py/fast
-
-# Convenience name for target.
 wpb_home/wpbh_local_planner/CMakeFiles/wpbh_local_planner.dir/rule:
 	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wpb_home/wpbh_local_planner/CMakeFiles/wpbh_local_planner.dir/rule
 .PHONY : wpb_home/wpbh_local_planner/CMakeFiles/wpbh_local_planner.dir/rule
@@ -496,11 +426,6 @@ help:
 	@echo "... costmap_2d_generate_messages_lisp"
 	@echo "... costmap_2d_generate_messages_nodejs"
 	@echo "... costmap_2d_generate_messages_py"
-	@echo "... map_msgs_generate_messages_cpp"
-	@echo "... map_msgs_generate_messages_eus"
-	@echo "... map_msgs_generate_messages_lisp"
-	@echo "... map_msgs_generate_messages_nodejs"
-	@echo "... map_msgs_generate_messages_py"
 	@echo "... wpbh_local_planner"
 	@echo "... src/CLidarAC.o"
 	@echo "... src/CLidarAC.i"
