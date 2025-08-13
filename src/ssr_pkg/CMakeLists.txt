@@ -210,7 +210,7 @@ add_executable(chao_node src/chao_node.cpp)
 
 target_link_libraries(chao_node ${catkin_LIBRARIES})
 
-add_dependencies(chao_node qq_msgs_generate_message_cpp)
+add_dependencies(chao_node qq_msgs_generate_messages_cpp)
 
 add_executable(yao_node src/yao_node.cpp)
 

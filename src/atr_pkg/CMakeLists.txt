@@ -210,4 +210,4 @@ add_executable(ma_node src/ma_node.cpp)
 
 target_link_libraries(ma_node ${catkin_LIBRARIES})
 
-add_dependencies(ma_node qq_msgs_generate_message_cpp)
+add_dependencies(ma_node qq_msgs_generate_messages_cpp)
