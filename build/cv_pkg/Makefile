@@ -213,6 +213,44 @@ cv_follow_node/fast:
 	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_follow_node.dir/build.make cv_pkg/CMakeFiles/cv_follow_node.dir/build
 .PHONY : cv_follow_node/fast
 
+# Convenience name for target.
+cv_pkg/CMakeFiles/cv_face_detect_node.dir/rule:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv_pkg/CMakeFiles/cv_face_detect_node.dir/rule
+.PHONY : cv_pkg/CMakeFiles/cv_face_detect_node.dir/rule
+
+# Convenience name for target.
+cv_face_detect_node: cv_pkg/CMakeFiles/cv_face_detect_node.dir/rule
+.PHONY : cv_face_detect_node
+
+# fast build rule for target.
+cv_face_detect_node/fast:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_face_detect_node.dir/build.make cv_pkg/CMakeFiles/cv_face_detect_node.dir/build
+.PHONY : cv_face_detect_node/fast
+
+src/cv_face_detect_node.o: src/cv_face_detect_node.cpp.o
+.PHONY : src/cv_face_detect_node.o
+
+# target to build an object file
+src/cv_face_detect_node.cpp.o:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_face_detect_node.dir/build.make cv_pkg/CMakeFiles/cv_face_detect_node.dir/src/cv_face_detect_node.cpp.o
+.PHONY : src/cv_face_detect_node.cpp.o
+
+src/cv_face_detect_node.i: src/cv_face_detect_node.cpp.i
+.PHONY : src/cv_face_detect_node.i
+
+# target to preprocess a source file
+src/cv_face_detect_node.cpp.i:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_face_detect_node.dir/build.make cv_pkg/CMakeFiles/cv_face_detect_node.dir/src/cv_face_detect_node.cpp.i
+.PHONY : src/cv_face_detect_node.cpp.i
+
+src/cv_face_detect_node.s: src/cv_face_detect_node.cpp.s
+.PHONY : src/cv_face_detect_node.s
+
+# target to generate assembly for a file
+src/cv_face_detect_node.cpp.s:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_face_detect_node.dir/build.make cv_pkg/CMakeFiles/cv_face_detect_node.dir/src/cv_face_detect_node.cpp.s
+.PHONY : src/cv_face_detect_node.cpp.s
+
 src/cv_follow_node.o: src/cv_follow_node.cpp.o
 .PHONY : src/cv_follow_node.o
 
@@ -298,9 +336,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... cv_face_detect_node"
 	@echo "... cv_follow_node"
 	@echo "... cv_hsv_node"
 	@echo "... cv_node"
+	@echo "... src/cv_face_detect_node.o"
+	@echo "... src/cv_face_detect_node.i"
+	@echo "... src/cv_face_detect_node.s"
 	@echo "... src/cv_follow_node.o"
 	@echo "... src/cv_follow_node.i"
 	@echo "... src/cv_follow_node.s"

@@ -78,8 +78,8 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py: /home/y
 
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg/_Waypoint.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg/_Waypoint.py: /home/yehuo/ros_test_ws/src/waterplus_map_tools/msg/Waypoint.msg
-/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg/_Waypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG waterplus_map_tools/Waypoint"
 	cd /home/yehuo/ros_test_ws/build/waterplus_map_tools && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/yehuo/ros_test_ws/src/waterplus_map_tools/msg/Waypoint.msg -Iwaterplus_map_tools:/home/yehuo/ros_test_ws/src/waterplus_map_tools/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p waterplus_map_tools -o /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/msg
@@ -97,16 +97,16 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py: /home/y
 
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_AddNewWaypoint.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_AddNewWaypoint.py: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/AddNewWaypoint.srv
-/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_AddNewWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_AddNewWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_AddNewWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_AddNewWaypoint.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python code from SRV waterplus_map_tools/AddNewWaypoint"
 	cd /home/yehuo/ros_test_ws/build/waterplus_map_tools && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/AddNewWaypoint.srv -Iwaterplus_map_tools:/home/yehuo/ros_test_ws/src/waterplus_map_tools/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p waterplus_map_tools -o /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv
 
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetChargerByName.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetChargerByName.py: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetChargerByName.srv
-/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetChargerByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetChargerByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetChargerByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetChargerByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV waterplus_map_tools/GetChargerByName"
 	cd /home/yehuo/ros_test_ws/build/waterplus_map_tools && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetChargerByName.srv -Iwaterplus_map_tools:/home/yehuo/ros_test_ws/src/waterplus_map_tools/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p waterplus_map_tools -o /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv
@@ -118,16 +118,16 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py: /home/y
 
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByIndex.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByIndex.py: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetWaypointByIndex.srv
-/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByIndex.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByIndex.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByIndex.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByIndex.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python code from SRV waterplus_map_tools/GetWaypointByIndex"
 	cd /home/yehuo/ros_test_ws/build/waterplus_map_tools && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetWaypointByIndex.srv -Iwaterplus_map_tools:/home/yehuo/ros_test_ws/src/waterplus_map_tools/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p waterplus_map_tools -o /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv
 
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByName.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByName.py: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetWaypointByName.srv
-/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv/_GetWaypointByName.py: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python code from SRV waterplus_map_tools/GetWaypointByName"
 	cd /home/yehuo/ros_test_ws/build/waterplus_map_tools && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetWaypointByName.srv -Iwaterplus_map_tools:/home/yehuo/ros_test_ws/src/waterplus_map_tools/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p waterplus_map_tools -o /home/yehuo/ros_test_ws/devel/lib/python3/dist-packages/waterplus_map_tools/srv
