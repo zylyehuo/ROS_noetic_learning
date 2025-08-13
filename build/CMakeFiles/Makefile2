@@ -263,6 +263,7 @@ map_pkg/clean: map_pkg/CMakeFiles/map_pub_node.dir/clean
 
 # Recursive "all" directory target.
 nav_pkg/all: nav_pkg/CMakeFiles/nav_client.dir/all
+nav_pkg/all: nav_pkg/CMakeFiles/wp_node.dir/all
 .PHONY : nav_pkg/all
 
 # Recursive "preinstall" directory target.
@@ -276,6 +277,7 @@ nav_pkg/clean: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/clea
 nav_pkg/clean: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/clean
 nav_pkg/clean: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_py.dir/clean
 nav_pkg/clean: nav_pkg/CMakeFiles/nav_client.dir/clean
+nav_pkg/clean: nav_pkg/CMakeFiles/wp_node.dir/clean
 .PHONY : nav_pkg/clean
 
 #=============================================================================
@@ -5552,6 +5554,67 @@ nav_pkg/CMakeFiles/nav_client.dir/clean:
 .PHONY : nav_pkg/CMakeFiles/nav_client.dir/clean
 
 #=============================================================================
+# Target rules for target nav_pkg/CMakeFiles/wp_node.dir
+
+# All Build rule for target.
+nav_pkg/CMakeFiles/wp_node.dir/all: ros_tutorials/ros_tutorials/CMakeFiles/_catkin_empty_exported_target.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/roscpp_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/roscpp_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/roscpp_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/roscpp_generate_messages_py.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/std_msgs_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/std_msgs_generate_messages_py.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_generate_messages_py.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: wpb_home/wpb_home_bringup/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_cpp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
+nav_pkg/CMakeFiles/wp_node.dir/all: nav_pkg/CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+	$(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=67 "Built target wp_node"
+.PHONY : nav_pkg/CMakeFiles/wp_node.dir/all
+
+# Build rule for subdir invocation for target.
+nav_pkg/CMakeFiles/wp_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav_pkg/CMakeFiles/wp_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
+.PHONY : nav_pkg/CMakeFiles/wp_node.dir/rule
+
+# Convenience name for target.
+wp_node: nav_pkg/CMakeFiles/wp_node.dir/rule
+.PHONY : wp_node
+
+# clean rule for target.
+nav_pkg/CMakeFiles/wp_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/clean
+.PHONY : nav_pkg/CMakeFiles/wp_node.dir/clean
+
+#=============================================================================
 # Target rules for target imu_pkg/CMakeFiles/imu_node.dir
 
 # All Build rule for target.
@@ -6144,12 +6207,12 @@ ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all: r
 ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all: ros_tutorials/turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportRelative.dir/all
 	$(MAKE) $(MAKESILENT) -f ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/depend
 	$(MAKE) $(MAKESILENT) -f ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build.make ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=44,45 "Built target turtlesim_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=44 "Built target turtlesim_generate_messages_nodejs"
 .PHONY : ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.dir/rule
@@ -6175,7 +6238,7 @@ ros_tutorials/turtlesim/CMakeFiles/turtlesim_gennodejs.dir/all: ros_tutorials/tu
 
 # Build rule for subdir invocation for target.
 ros_tutorials/turtlesim/CMakeFiles/turtlesim_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_tutorials/turtlesim/CMakeFiles/turtlesim_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : ros_tutorials/turtlesim/CMakeFiles/turtlesim_gennodejs.dir/rule
@@ -6205,12 +6268,12 @@ ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/all: ros_t
 ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/all: ros_tutorials/turtlesim/CMakeFiles/_turtlesim_generate_messages_check_deps_TeleportRelative.dir/all
 	$(MAKE) $(MAKESILENT) -f ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build.make ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build.make ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=46,47 "Built target turtlesim_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=45,46,47 "Built target turtlesim_generate_messages_py"
 .PHONY : ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_py.dir/rule
@@ -6236,7 +6299,7 @@ ros_tutorials/turtlesim/CMakeFiles/turtlesim_genpy.dir/all: ros_tutorials/turtle
 
 # Build rule for subdir invocation for target.
 ros_tutorials/turtlesim/CMakeFiles/turtlesim_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_tutorials/turtlesim/CMakeFiles/turtlesim_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : ros_tutorials/turtlesim/CMakeFiles/turtlesim_genpy.dir/rule
@@ -7177,12 +7240,12 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/
 waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/all: waterplus_map_tools/CMakeFiles/_waterplus_map_tools_generate_messages_check_deps_GetChargerByName.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/build.make waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/build.make waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=57,58 "Built target waterplus_map_tools_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=57 "Built target waterplus_map_tools_generate_messages_nodejs"
 .PHONY : waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_nodejs.dir/rule
@@ -7208,7 +7271,7 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_gennodejs.dir/all: waterplus_
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/waterplus_map_tools_gennodejs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/waterplus_map_tools_gennodejs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/waterplus_map_tools_gennodejs.dir/rule
@@ -7237,12 +7300,12 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all:
 waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all: waterplus_map_tools/CMakeFiles/_waterplus_map_tools_generate_messages_check_deps_GetChargerByName.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/build.make waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/build.make waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=59,60 "Built target waterplus_map_tools_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=58,59,60 "Built target waterplus_map_tools_generate_messages_py"
 .PHONY : waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/rule
@@ -7268,7 +7331,7 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_genpy.dir/all: waterplus_map_
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/waterplus_map_tools_genpy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/waterplus_map_tools_genpy.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/waterplus_map_tools_genpy.dir/rule
@@ -7477,7 +7540,7 @@ waterplus_map_tools/CMakeFiles/wp_manager.dir/all: waterplus_map_tools/CMakeFile
 waterplus_map_tools/CMakeFiles/wp_manager.dir/all: waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_manager.dir/build.make waterplus_map_tools/CMakeFiles/wp_manager.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_manager.dir/build.make waterplus_map_tools/CMakeFiles/wp_manager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=62 "Built target wp_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num= "Built target wp_manager"
 .PHONY : waterplus_map_tools/CMakeFiles/wp_manager.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7584,7 +7647,7 @@ waterplus_map_tools/CMakeFiles/wp_edit_node.dir/all: waterplus_map_tools/CMakeFi
 waterplus_map_tools/CMakeFiles/wp_edit_node.dir/all: waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_edit_node.dir/build.make waterplus_map_tools/CMakeFiles/wp_edit_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_edit_node.dir/build.make waterplus_map_tools/CMakeFiles/wp_edit_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=61 "Built target wp_edit_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num= "Built target wp_edit_node"
 .PHONY : waterplus_map_tools/CMakeFiles/wp_edit_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -8231,7 +8294,7 @@ waterplus_map_tools/CMakeFiles/wp_navi_server.dir/all: waterplus_map_tools/CMake
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/wp_navi_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/wp_navi_server.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/wp_navi_server.dir/rule
@@ -8545,12 +8608,12 @@ waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/all: waterplus_map_tools/C
 waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/all: waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/build.make waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/build.make waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num= "Built target wp_manager_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=62 "Built target wp_manager_autogen"
 .PHONY : waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/wp_manager_autogen.dir/rule
@@ -8651,12 +8714,12 @@ waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/all: waterplus_map_tools
 waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/all: waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/build.make waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/build.make waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num= "Built target wp_edit_node_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=61 "Built target wp_edit_node_autogen"
 .PHONY : waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/wp_edit_node_autogen.dir/rule
@@ -9287,12 +9350,12 @@ waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/all: waterplus_map_too
 waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/all: waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_py.dir/all
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/build.make waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/build.make waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=67 "Built target wp_navi_server_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num= "Built target wp_navi_server_autogen"
 .PHONY : waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/all
 
 # Build rule for subdir invocation for target.
 waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yehuo/ros_test_ws/build/CMakeFiles 0
 .PHONY : waterplus_map_tools/CMakeFiles/wp_navi_server_autogen.dir/rule

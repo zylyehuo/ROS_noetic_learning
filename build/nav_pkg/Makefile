@@ -255,6 +255,20 @@ nav_client/fast:
 	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/build
 .PHONY : nav_client/fast
 
+# Convenience name for target.
+nav_pkg/CMakeFiles/wp_node.dir/rule:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav_pkg/CMakeFiles/wp_node.dir/rule
+.PHONY : nav_pkg/CMakeFiles/wp_node.dir/rule
+
+# Convenience name for target.
+wp_node: nav_pkg/CMakeFiles/wp_node.dir/rule
+.PHONY : wp_node
+
+# fast build rule for target.
+wp_node/fast:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/build
+.PHONY : wp_node/fast
+
 src/nav_client.o: src/nav_client.cpp.o
 .PHONY : src/nav_client.o
 
@@ -279,6 +293,30 @@ src/nav_client.cpp.s:
 	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/src/nav_client.cpp.s
 .PHONY : src/nav_client.cpp.s
 
+src/wp_node.o: src/wp_node.cpp.o
+.PHONY : src/wp_node.o
+
+# target to build an object file
+src/wp_node.cpp.o:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/src/wp_node.cpp.o
+.PHONY : src/wp_node.cpp.o
+
+src/wp_node.i: src/wp_node.cpp.i
+.PHONY : src/wp_node.i
+
+# target to preprocess a source file
+src/wp_node.cpp.i:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/src/wp_node.cpp.i
+.PHONY : src/wp_node.cpp.i
+
+src/wp_node.s: src/wp_node.cpp.s
+.PHONY : src/wp_node.s
+
+# target to generate assembly for a file
+src/wp_node.cpp.s:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/src/wp_node.cpp.s
+.PHONY : src/wp_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -298,9 +336,13 @@ help:
 	@echo "... move_base_msgs_generate_messages_nodejs"
 	@echo "... move_base_msgs_generate_messages_py"
 	@echo "... nav_client"
+	@echo "... wp_node"
 	@echo "... src/nav_client.o"
 	@echo "... src/nav_client.i"
 	@echo "... src/nav_client.s"
+	@echo "... src/wp_node.o"
+	@echo "... src/wp_node.i"
+	@echo "... src/wp_node.s"
 .PHONY : help
 
 

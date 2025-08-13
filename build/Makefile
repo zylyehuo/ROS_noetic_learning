@@ -2239,6 +2239,19 @@ nav_client/fast:
 .PHONY : nav_client/fast
 
 #=============================================================================
+# Target rules for targets named wp_node
+
+# Build rule for target.
+wp_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wp_node
+.PHONY : wp_node
+
+# fast build rule for target.
+wp_node/fast:
+	$(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/wp_node.dir/build.make nav_pkg/CMakeFiles/wp_node.dir/build
+.PHONY : wp_node/fast
+
+#=============================================================================
 # Target rules for targets named imu_node
 
 # Build rule for target.
@@ -5314,6 +5327,7 @@ help:
 	@echo "... wp_nav_remote"
 	@echo "... wp_nav_test"
 	@echo "... wp_navi_server"
+	@echo "... wp_node"
 	@echo "... wp_saver"
 	@echo "... wpb_home_behavior_node"
 	@echo "... wpb_home_calibrate_velocity"

@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/yehuo/ros_test_ws/devel;/home/yehuo/Downloads/AirSim/ros/devel;/home/yehuo/px4_airsim_ros1_ws/devel;/opt/ros/noetic;/usr/local;/home/yehuo/cmake-install'.split(';')
+            CMAKE_PREFIX_PATH = r'/usr/lib/x86_64-linux-gnu/cmake/realsense2;/usr/local;/home/yehuo/cmake-install;/home/yehuo/Downloads/AirSim/ros/devel;/home/yehuo/px4_airsim_ros1_ws/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
