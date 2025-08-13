@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 {
     ros::init(argc, argv, "cv_node");
     ros::NodeHandle nh;
-    ros::Subscriber rgb_sub = nh.subscribe("/kinect2/ahd/image_color_rect", 1, Cam_RGB_Callback);
+    ros::Subscriber rgb_sub = nh.subscribe("/kinect2/qhd/image_color_rect", 1, Cam_RGB_Callback);
 
     namedWindow("RGB");
 
