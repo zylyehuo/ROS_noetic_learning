@@ -241,6 +241,44 @@ move_base_msgs_generate_messages_py/fast:
 	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/move_base_msgs_generate_messages_py.dir/build.make nav_pkg/CMakeFiles/move_base_msgs_generate_messages_py.dir/build
 .PHONY : move_base_msgs_generate_messages_py/fast
 
+# Convenience name for target.
+nav_pkg/CMakeFiles/nav_client.dir/rule:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav_pkg/CMakeFiles/nav_client.dir/rule
+.PHONY : nav_pkg/CMakeFiles/nav_client.dir/rule
+
+# Convenience name for target.
+nav_client: nav_pkg/CMakeFiles/nav_client.dir/rule
+.PHONY : nav_client
+
+# fast build rule for target.
+nav_client/fast:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/build
+.PHONY : nav_client/fast
+
+src/nav_client.o: src/nav_client.cpp.o
+.PHONY : src/nav_client.o
+
+# target to build an object file
+src/nav_client.cpp.o:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/src/nav_client.cpp.o
+.PHONY : src/nav_client.cpp.o
+
+src/nav_client.i: src/nav_client.cpp.i
+.PHONY : src/nav_client.i
+
+# target to preprocess a source file
+src/nav_client.cpp.i:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/src/nav_client.cpp.i
+.PHONY : src/nav_client.cpp.i
+
+src/nav_client.s: src/nav_client.cpp.s
+.PHONY : src/nav_client.s
+
+# target to generate assembly for a file
+src/nav_client.cpp.s:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/src/nav_client.cpp.s
+.PHONY : src/nav_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,6 +297,10 @@ help:
 	@echo "... move_base_msgs_generate_messages_lisp"
 	@echo "... move_base_msgs_generate_messages_nodejs"
 	@echo "... move_base_msgs_generate_messages_py"
+	@echo "... nav_client"
+	@echo "... src/nav_client.o"
+	@echo "... src/nav_client.i"
+	@echo "... src/nav_client.s"
 .PHONY : help
 
 

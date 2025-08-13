@@ -2226,6 +2226,19 @@ move_base_msgs_generate_messages_py/fast:
 .PHONY : move_base_msgs_generate_messages_py/fast
 
 #=============================================================================
+# Target rules for targets named nav_client
+
+# Build rule for target.
+nav_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nav_client
+.PHONY : nav_client
+
+# fast build rule for target.
+nav_client/fast:
+	$(MAKE) $(MAKESILENT) -f nav_pkg/CMakeFiles/nav_client.dir/build.make nav_pkg/CMakeFiles/nav_client.dir/build
+.PHONY : nav_client/fast
+
+#=============================================================================
 # Target rules for targets named imu_node
 
 # Build rule for target.
@@ -4689,6 +4702,7 @@ help:
 	@echo "... ma_node"
 	@echo "... map_pub_node"
 	@echo "... mimic"
+	@echo "... nav_client"
 	@echo "... node_handle_namespaces"
 	@echo "... notify_connect"
 	@echo "... parameters"

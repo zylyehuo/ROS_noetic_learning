@@ -254,6 +254,7 @@
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_lisp.dir
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_nodejs.dir
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/move_base_msgs_generate_messages_py.dir
+/home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/nav_client.dir
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/test.dir
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/edit_cache.dir
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/rebuild_cache.dir
