@@ -265,6 +265,7 @@
 /home/yehuo/ros_test_ws/build/nav_pkg/CMakeFiles/install/strip.dir
 /home/yehuo/ros_test_ws/build/cv_pkg/CMakeFiles/cv_node.dir
 /home/yehuo/ros_test_ws/build/cv_pkg/CMakeFiles/cv_hsv_node.dir
+/home/yehuo/ros_test_ws/build/cv_pkg/CMakeFiles/cv_follow_node.dir
 /home/yehuo/ros_test_ws/build/cv_pkg/CMakeFiles/test.dir
 /home/yehuo/ros_test_ws/build/cv_pkg/CMakeFiles/edit_cache.dir
 /home/yehuo/ros_test_ws/build/cv_pkg/CMakeFiles/rebuild_cache.dir

@@ -199,6 +199,44 @@ cv_hsv_node/fast:
 	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_hsv_node.dir/build.make cv_pkg/CMakeFiles/cv_hsv_node.dir/build
 .PHONY : cv_hsv_node/fast
 
+# Convenience name for target.
+cv_pkg/CMakeFiles/cv_follow_node.dir/rule:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv_pkg/CMakeFiles/cv_follow_node.dir/rule
+.PHONY : cv_pkg/CMakeFiles/cv_follow_node.dir/rule
+
+# Convenience name for target.
+cv_follow_node: cv_pkg/CMakeFiles/cv_follow_node.dir/rule
+.PHONY : cv_follow_node
+
+# fast build rule for target.
+cv_follow_node/fast:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_follow_node.dir/build.make cv_pkg/CMakeFiles/cv_follow_node.dir/build
+.PHONY : cv_follow_node/fast
+
+src/cv_follow_node.o: src/cv_follow_node.cpp.o
+.PHONY : src/cv_follow_node.o
+
+# target to build an object file
+src/cv_follow_node.cpp.o:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_follow_node.dir/build.make cv_pkg/CMakeFiles/cv_follow_node.dir/src/cv_follow_node.cpp.o
+.PHONY : src/cv_follow_node.cpp.o
+
+src/cv_follow_node.i: src/cv_follow_node.cpp.i
+.PHONY : src/cv_follow_node.i
+
+# target to preprocess a source file
+src/cv_follow_node.cpp.i:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_follow_node.dir/build.make cv_pkg/CMakeFiles/cv_follow_node.dir/src/cv_follow_node.cpp.i
+.PHONY : src/cv_follow_node.cpp.i
+
+src/cv_follow_node.s: src/cv_follow_node.cpp.s
+.PHONY : src/cv_follow_node.s
+
+# target to generate assembly for a file
+src/cv_follow_node.cpp.s:
+	cd /home/yehuo/ros_test_ws/build && $(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_follow_node.dir/build.make cv_pkg/CMakeFiles/cv_follow_node.dir/src/cv_follow_node.cpp.s
+.PHONY : src/cv_follow_node.cpp.s
+
 src/cv_hsv_node.o: src/cv_hsv_node.cpp.o
 .PHONY : src/cv_hsv_node.o
 
@@ -260,8 +298,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... cv_follow_node"
 	@echo "... cv_hsv_node"
 	@echo "... cv_node"
+	@echo "... src/cv_follow_node.o"
+	@echo "... src/cv_follow_node.i"
+	@echo "... src/cv_follow_node.s"
 	@echo "... src/cv_hsv_node.o"
 	@echo "... src/cv_hsv_node.i"
 	@echo "... src/cv_hsv_node.s"

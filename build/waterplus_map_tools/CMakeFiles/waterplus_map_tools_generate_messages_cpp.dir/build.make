@@ -76,9 +76,9 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_cpp: /home/
 
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/AddNewWaypoint.srv
+/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/AddNewWaypoint.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from waterplus_map_tools/AddNewWaypoint.srv"
@@ -86,9 +86,9 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_cpp: /home/
 
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetChargerByName.srv
+/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetChargerByName.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from waterplus_map_tools/GetChargerByName.srv"
@@ -103,9 +103,9 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_cpp: /home/
 
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetWaypointByIndex.srv
+/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByIndex.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from waterplus_map_tools/GetWaypointByIndex.srv"
@@ -113,9 +113,9 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_cpp: /home/
 
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /home/yehuo/ros_test_ws/src/waterplus_map_tools/srv/GetWaypointByName.srv
+/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/GetWaypointByName.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from waterplus_map_tools/GetWaypointByName.srv"
@@ -130,9 +130,9 @@ waterplus_map_tools/CMakeFiles/waterplus_map_tools_generate_messages_cpp: /home/
 
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /home/yehuo/ros_test_ws/src/waterplus_map_tools/msg/Waypoint.msg
+/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
 /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools/Waypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/yehuo/ros_test_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating C++ code from waterplus_map_tools/Waypoint.msg"
 	cd /home/yehuo/ros_test_ws/src/waterplus_map_tools && /home/yehuo/ros_test_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/yehuo/ros_test_ws/src/waterplus_map_tools/msg/Waypoint.msg -Iwaterplus_map_tools:/home/yehuo/ros_test_ws/src/waterplus_map_tools/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p waterplus_map_tools -o /home/yehuo/ros_test_ws/devel/include/waterplus_map_tools -e /opt/ros/noetic/share/gencpp/cmake/..

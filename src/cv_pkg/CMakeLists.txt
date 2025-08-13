@@ -208,13 +208,13 @@ include_directories(
 # catkin_add_nosetests(test)
 
 add_executable(cv_node src/cv_node.cpp)
-
 add_dependencies(cv_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
 target_link_libraries(cv_node ${catkin_LIBRARIES} ${OpenCV_LIBS})
 
 add_executable(cv_hsv_node src/cv_hsv_node.cpp)
-
 add_dependencies(cv_hsv_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-
 target_link_libraries(cv_hsv_node ${catkin_LIBRARIES} ${OpenCV_LIBS})
+
+add_executable(cv_follow_node src/cv_follow_node.cpp)
+add_dependencies(cv_follow_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+target_link_libraries(cv_follow_node ${catkin_LIBRARIES} ${OpenCV_LIBS})

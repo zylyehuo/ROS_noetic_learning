@@ -2278,6 +2278,19 @@ cv_hsv_node/fast:
 .PHONY : cv_hsv_node/fast
 
 #=============================================================================
+# Target rules for targets named cv_follow_node
+
+# Build rule for target.
+cv_follow_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv_follow_node
+.PHONY : cv_follow_node
+
+# fast build rule for target.
+cv_follow_node/fast:
+	$(MAKE) $(MAKESILENT) -f cv_pkg/CMakeFiles/cv_follow_node.dir/build.make cv_pkg/CMakeFiles/cv_follow_node.dir/build
+.PHONY : cv_follow_node/fast
+
+#=============================================================================
 # Target rules for targets named imu_node
 
 # Build rule for target.
@@ -5300,6 +5313,7 @@ help:
 	@echo "... chao_node"
 	@echo "... charger_get_position"
 	@echo "... custom_callback_processing"
+	@echo "... cv_follow_node"
 	@echo "... cv_hsv_node"
 	@echo "... cv_node"
 	@echo "... demo_cv_face_detect"
